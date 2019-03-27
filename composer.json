@@ -1,5 +1,5 @@
 {
-  "name": "corveda/php-sandbox",
+  "name": "dizairo/php-sandbox",
   "description": "A PHP library that can be used to run PHP code in a sandboxed environment",
   "keywords": ["php", "sandbox", "parser", "whitelist", "blacklist"],
   "type": "library",
@@ -15,13 +15,13 @@
     }
   ],
   "require": {
-    "php": ">=5.4",
-    "nikic/php-parser": "2.*",
-    "jeremeamia/FunctionParser": "*"
+    "php": "^7.1",
+    "nikic/php-parser": "*",
+    "jeremeamia/FunctionParser": "*",
+    "symfony/yaml": "*"
   },
   "require-dev": {
-    "symfony/yaml": "~2.1",
-    "phpunit/phpunit": "4.8.*"
+    "phpunit/phpunit": "*"
   },
   "replace": {
     "fieryprophet/php-sandbox": "*"
